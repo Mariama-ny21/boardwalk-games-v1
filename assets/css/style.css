@@ -79,6 +79,19 @@ h2{
 #services .card{
     margin-bottom: 1.5rem;
 }
+/* Events - Table */
+
+.table-hover{
+    background-color: var(--highlight-color-light);
+}
+.student-discounts{
+    background-color: var(--highlight-color);
+    border: 1px solid;
+    width: 300px;
+    padding: 5px;
+    margin: 30px;
+    color: white;
+}
 
 /* Game library cards */
 #new-games .card,
@@ -130,6 +143,13 @@ h2{
 */
 
 /* Media queries */
+ /* Medium devices (mobiles, 320px and up)
+@media screen and (min-width: 320px) {
+    Make all service cards the same height for consistency */
+    .table{
+        min-height: 180px;}  
+*/
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
