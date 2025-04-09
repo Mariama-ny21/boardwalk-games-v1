@@ -133,20 +133,6 @@ h2{
     background-color: transparent;
 }
 
-
-/* Grid visualisation CSS for testing 
-
-.container,
-.row{
-    border: 2px solid black;
-}
-
-.col-12{
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
-
 /* Small screens and up */
 @media screen and (min-width: 576px) {
     /* increase font size in events table when screen size is large enough */
